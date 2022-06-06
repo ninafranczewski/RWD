@@ -346,6 +346,9 @@ section .secondRow {
 .pic_box_b {
     flex: 1;
 }
+.picture_b{
+    max-width: 300px;
+}
 
 .buttonPrimary a {
     background-color: #171a20;
