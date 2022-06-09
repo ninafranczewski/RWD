@@ -121,45 +121,43 @@
                 </div>
             </div>
         </div>
-        <section id="section">
-            <div class="secondContent">
-                <div>
-                    <img class="picture" src="DodekaederColors.png" alt="Dodekaeder in diffrent Colors">
+        <div class="secondContent">
+            <div>
+                <img class="picture" src="DodekaederColors.png" alt="Dodekaeder in diffrent Colors">
+            </div>
+            <div class="secondRow">
+                <div class="werte">
+                    <h2 class="color">3,3 Sek.</h2>
+                    <p class="color">0-10 km/h</p>
                 </div>
-                <div class="secondRow">
-                    <div class="werte">
-                        <h2 class="color">3,3 Sek.</h2>
-                        <p class="color">0-10 km/h</p>
-                    </div>
-                    <div class="werte">
-                        <h2 class="color">20km/h</h2>
-                        <p class="color">Maximale <br> Geschwindigkeit</p>
-                    </div>
-                    <div class="werte">
-                        <h2 class="color">5PS</h2>
-                        <p class="color">Spitzenleistung</p>
-                    </div>
+                <div class="werte">
+                    <h2 class="color">20km/h</h2>
+                    <p class="color">Maximale <br> Geschwindigkeit</p>
+                </div>
+                <div class="werte">
+                    <h2 class="color">5PS</h2>
+                    <p class="color">Spitzenleistung</p>
                 </div>
             </div>
-            <div class="text">
-                <div class="left">
-                    <p class="color">Plantonischer Körper</p>
-                    <h2 class="color">Dodekaeder</h2>
-                    <div class="mehrErfahren">
-                        <a href="">+</a>
-                        <p>Mehr Erfahren</p>
-                    </div>
-                </div>
-                <div class="right">
-                    <p class="color">
-                        Ein Dodekaeder ist ein konvexes Polyeder, das von kongruenten regelmäßigen Fünfecken begrenzt
-                        wird, wobei in jeder Ecke drei Flächen zusammentreffen. Es gehört – zusammen mit dem
-                        regelmäßigen Tetraeder, dem Hexaeder, dem Oktaeder und dem Ikosaeder – zu den fünf platonischen
-                        Körpern.
-                    </p>
+        </div>
+        <div class="text">
+            <div class="left">
+                <p class="color">Plantonischer Körper</p>
+                <h2 class="color">Dodekaeder</h2>
+                <div class="mehrErfahren">
+                    <a href="">+</a>
+                    <p>Mehr Erfahren</p>
                 </div>
             </div>
-        </section>
+            <div class="right">
+                <p class="color">
+                    Ein Dodekaeder ist ein konvexes Polyeder, das von kongruenten regelmäßigen Fünfecken begrenzt
+                    wird, wobei in jeder Ecke drei Flächen zusammentreffen. Es gehört – zusammen mit dem
+                    regelmäßigen Tetraeder, dem Hexaeder, dem Oktaeder und dem Ikosaeder – zu den fünf platonischen
+                    Körpern.
+                </p>
+            </div>
+        </div>
         <div id="koerpernetz">
             <div class="textk">
                 <h2>Körpernetz</h2>
@@ -229,7 +227,8 @@
     <script type="text/javascript">
         $(document).ready(function () {
             $('.slider').slick({
-                dots: true
+                dots: true,
+                arrows: false,
             });
         });
     </script>
