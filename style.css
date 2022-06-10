@@ -60,7 +60,7 @@ section .content {
 }
 
 section h1 {
-    font-size: 40pt;
+    font-size: 48px;
     color: white;
     font-weight: lighter;
     padding-bottom: 10px;
@@ -75,7 +75,7 @@ section p {
 section .row {
     margin-left: 20%;
     margin-right: 20%;
-    margin-bottom: 1%;
+    margin-bottom: 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -100,7 +100,7 @@ section .button a {
     border-style: solid;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 10pt;
+    font-size: 12px;
     letter-spacing: 1px;
 }
 
@@ -217,7 +217,7 @@ section .button a:hover {
     padding-bottom: 100px;
     text-align: center;
     display: grid;
-    grid-template-rows: min-content auto auto min-content;
+    grid-template-rows: min-content auto min-content;
     background-color: #EDEDED;
 }
 
@@ -231,7 +231,7 @@ section .button a:hover {
 }
 
 .picture {
-    max-width: 70%;
+    max-width: 75%;
 }
 
 #koerpernetz {
@@ -302,8 +302,7 @@ section .button a:hover {
 .bild_box_d {
     background-color: #EDEDED;
     flex-basis: 0;
-    flex-grow: 2;
-    min-width: 60%;
+    min-width: calc(100% - 480px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -314,6 +313,7 @@ section .button a:hover {
 }
 
 .text_d {
+    width: 478px;
     padding-left: 110px;
     padding-right: 110px;
     padding-top: 70px;
@@ -328,7 +328,7 @@ section .button a:hover {
 }
 
 #padding {
-    padding-bottom: 200px;
+    padding-bottom: 160px;
 }
 
 .dual_b {
@@ -349,7 +349,16 @@ section .button a:hover {
 
 .pic_box_b {
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.picture_b {
+    max-width: 200px;
+    margin: 0px;
+}
+
 
 .picture_b {
     max-width: 300px;
@@ -365,7 +374,7 @@ section .button a:hover {
     border-style: solid;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 10pt;
+    font-size: 12px;
     letter-spacing: 1px;
 }
 
@@ -389,7 +398,7 @@ section .button a:hover {
     border-style: solid;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 10pt;
+    font-size: 12px;
     letter-spacing: 1px;
     margin-left: 15px;
 }
@@ -401,15 +410,165 @@ section .button a:hover {
 
 .footer {
     display: flex;
-    justify-content: space-between;
-    padding: 2% 28%;
+    justify-content: center;
+    padding: 35px 0px;
     background-color: white;
     font-size: 12px;
     color: #5C5E62;
     cursor: pointer;
 }
 
-@media (max-width: 700px) {
+footer p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*Tablet-Desktop*/
+@media (max-width: 1300px) {
+
+    .slider_headline {
+        margin-left: 20%;
+    }
+
+    .slider_text {
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 10%;
+    }
+
+    .slick-dots {
+        bottom: 240px;
+        padding-left: 19%;
+    }
+
+    .facts {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
+/*Tablet*/
+@media (max-width: 1000px) {
+
+    .slider_headline {
+        margin-left: 15%;
+    }
+
+    .slider_text {
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 10%;
+    }
+
+    .slick-dots {
+        bottom: 225px;
+        padding-left: 14%;
+    }
+
+    .image_box {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 10%;
+        margin-bottom: 15%;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        border-radius: 0px;
+    }
+
+    .facts {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .secondContent {
+        height: fit-content;
+        padding-bottom: 50px;
+    }
+
+    .secondRow {
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-top: 15%;
+    }
+
+    .text {
+        padding: 3% 36px;
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .right {
+        padding-left: 0;
+        padding-top: 15px;
+    }
+
+    .bild_box {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 25px;
+        margin-top: 10%;
+        margin-bottom: 15%;
+        border-radius: 0px;
+    }
+
+    #koerpernetz {
+        padding: 0;
+    }
+
+    .picturek {
+        max-width: 55%;
+        display: block;
+        margin: 10px auto;
+    }
+
+    .textk {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .textk h2 {
+        padding-top: 70px;
+    }
+
+    .dual {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .picture_d {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        max-width: 300px;
+    }
+
+    .text_d {
+        width: fit-content;
+        padding: 5%;
+    }
+
+    #padding {
+        padding-bottom: 35px;
+    }
+
+    .headline {
+        margin: 0px 24px;
+    }
+
+    .picture_b {
+        max-width: 200px;
+        margin: 0px;
+    }
+
+    .buttons a {
+        padding: 6px 38px;
+    }
+}
+
+
+/*Mobile*/
+@media (max-width: 600px) {
 
     header {
         padding: 20px 20px;
@@ -444,7 +603,7 @@ section .button a:hover {
     section .button a {
         margin-top: 60px;
         padding: 6px 125px;
-        font-size: 10pt;
+        font-size: 12px;
         letter-spacing: 1px;
     }
 
@@ -454,20 +613,17 @@ section .button a:hover {
 
     .slider_headline {
         margin-left: 5%;
-        padding-bottom: 10px;
     }
 
     .slider_text {
         margin-left: 5%;
         margin-right: 5%;
-        margin-bottom: 20%;
+        margin-bottom: 10%;
     }
 
     .slick-dots {
-        bottom: 255px;
-        text-align: left;
-        margin-left: 3%;
-        padding-left: 0%;
+        bottom: 200px;
+        padding-left: 3%;
     }
 
     .image_box {
@@ -564,9 +720,9 @@ section .button a:hover {
     .picture_d {
         max-width: 230px;
         padding-top: 48px;
-        padding-bottom:48px;
+        padding-bottom: 48px;
     }
-    
+
     .text_d {
         padding: 5%;
     }
