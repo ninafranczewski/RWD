@@ -597,7 +597,7 @@ footer p {
     }
 
     section .row {
-        margin: 0% 5%;
+        margin: 0% 15%;
         flex-wrap: wrap;
     }
 
@@ -607,10 +607,12 @@ footer p {
 
     .button {
         padding-top: 40px;
+        display: block;
+        margin: auto;
     }
 
     section .button a {
-        padding: 6px 170px;
+        padding: 6px 75px;
     }
 
     .slider_image {
@@ -756,11 +758,11 @@ footer p {
     }
 
     .buttonPrimary a {
-        padding: 6px 170px;
+        padding: 6px 35%;
     }
 
     .buttonSecondary a {
-        padding: 6px 170px;
+        padding: 6px 35%;
         margin-left: 0;
     }
 
