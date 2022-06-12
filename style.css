@@ -652,7 +652,7 @@ footer p {
     }
 
     .slick-dots {
-        bottom: 175px;
+        bottom: 185px;
         padding-left: 3%;
     }
 
@@ -692,8 +692,8 @@ footer p {
     }
 
     .secondRow {
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 18%;
+        margin-right: 18%;
         padding-top: 100px;
         font-size: 10px;
     }
