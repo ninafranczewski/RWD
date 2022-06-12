@@ -46,7 +46,8 @@ section {
 }
 
 .dodekaeder {
-    max-width: 300px;
+    max-width: 310px;
+    padding: 20px;
 }
 
 section .content {
@@ -79,6 +80,16 @@ section .row {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.center {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 25px;
+}
+
+.button {
+    padding-top: 25px;
 }
 
 section .row p {
@@ -124,7 +135,7 @@ section .button a:hover {
 }
 
 .slick-dots {
-    bottom: 110px;
+    bottom: 180px;
     text-align: left;
     padding-left: 280px;
 }
@@ -158,6 +169,7 @@ section .button a:hover {
     color: white;
     margin-left: 290px;
     margin-right: 290px;
+    margin-bottom: 5%;
     font-size: 14px;
 }
 
@@ -238,7 +250,6 @@ section .button a:hover {
     padding-top: 5%;
     display: flex;
     justify-content: space-between;
-    align-content: flex-start;
 }
 
 .picture {
@@ -444,22 +455,29 @@ footer p {
     .slider_text {
         margin-left: 20%;
         margin-right: 20%;
-        margin-bottom: 10%;
     }
 
     .slick-dots {
-        bottom: 240px;
+        bottom: 190px;
         padding-left: 19%;
-    }
-
-    .facts {
-        margin-left: 15%;
-        margin-right: 15%;
     }
 }
 
 /*Tablet*/
 @media (max-width: 1000px) {
+
+    header nav a {
+        background-color: rgba(255, 255, 255, 0.195);
+    }
+
+    section .row {
+        flex-wrap: wrap;
+    }
+
+    .button {
+        display: block;
+        margin: auto;
+    }
 
     .slider_headline {
         margin-left: 15%;
@@ -468,11 +486,10 @@ footer p {
     .slider_text {
         margin-left: 15%;
         margin-right: 15%;
-        margin-bottom: 10%;
     }
 
     .slick-dots {
-        bottom: 225px;
+        bottom: 190px;
         padding-left: 14%;
     }
 
@@ -489,8 +506,8 @@ footer p {
     }
 
     .facts {
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 15%;
+        margin-right: 15%;
     }
 
     .secondContent {
@@ -593,7 +610,7 @@ footer p {
     }
 
     .dodekaeder {
-        max-width: 200px;
+        max-width: 260px;
     }
 
     section .row {
@@ -605,8 +622,14 @@ footer p {
         font-size: 10px;
     }
 
+    .center {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 0px;
+    }
+
     .button {
-        padding-top: 40px;
+        padding-top: 25px;
         display: block;
         margin: auto;
     }
@@ -626,11 +649,10 @@ footer p {
     .slider_text {
         margin-left: 5%;
         margin-right: 5%;
-        margin-bottom: 10%;
     }
 
     .slick-dots {
-        bottom: 210px;
+        bottom: 175px;
         padding-left: 3%;
     }
 
@@ -751,6 +773,8 @@ footer p {
 
     .buttons {
         flex-direction: column;
+        display: block;
+        margin: auto;
     }
 
     .buttonPrimary {
