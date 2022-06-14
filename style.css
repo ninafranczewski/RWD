@@ -762,8 +762,9 @@ footer p {
     }
 
     .headline {
-        margin-bottom: 190px;
-        margin-top: 30px;
+        padding-bottom: 190px;
+        padding-top: 30px;
+        margin: auto;
     }
 
     .picture_b {
