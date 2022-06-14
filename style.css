@@ -20,6 +20,18 @@ main {
     background-color: #57595F;
 }
 
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
 .polyeder {
     height: 20px;
 }
@@ -80,6 +92,20 @@ section .row {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    animation: slide-up 2s;
+
+}
+
+@keyframes slide-up {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 
 .center {
@@ -146,17 +172,14 @@ section .button a:hover {
     margin-bottom: 7%;
     margin-left: 10%;
     margin-right: 10%;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding: 4% 0%;
     border-radius: 32px;
 }
 
 .slider_image {
     display: block;
     margin: 0px auto;
-    max-height: 300px;
+    max-height: 330px;
 }
 
 .slider_headline {
@@ -227,11 +250,6 @@ section .button a:hover {
 
 .right {
     padding-left: 15%;
-    flex: 6;
-}
-
-.left {
-    flex: 2;
 }
 
 .secondContent {
@@ -258,12 +276,12 @@ section .button a:hover {
 
 #koerpernetz {
     background: #ADB2BE;
-    padding: 7% 10%;
+    padding: 10% 10%;
 }
 
 .bild_box {
     background-color: white;
-    margin-top: 5%;
+    margin-top: 10%;
     padding: 2% 10%;
     border-radius: 32px;
 }
@@ -350,7 +368,7 @@ section .button a:hover {
 }
 
 #padding {
-    padding-bottom: 160px;
+    padding-bottom: 200px;
 }
 
 .dual_b {
@@ -533,11 +551,9 @@ footer p {
     }
 
     .bild_box {
-        margin-left: 0;
-        margin-right: 0;
-        padding: 25px;
-        margin-top: 10%;
-        border-radius: 0px;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 7%;
     }
 
     #koerpernetz {
@@ -545,7 +561,6 @@ footer p {
     }
 
     .picturek {
-        max-width: 55%;
         display: block;
         margin: 10px auto;
     }
@@ -610,7 +625,7 @@ footer p {
     }
 
     .dodekaeder {
-        max-width: 260px;
+        max-width: 290px;
     }
 
     section .row {
@@ -639,7 +654,7 @@ footer p {
     }
 
     .slider_image {
-        max-height: 200px;
+        max-height: 290px;
     }
 
     .slider_headline {
@@ -657,14 +672,7 @@ footer p {
     }
 
     .image_box {
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: 10%;
-        margin-bottom: 15%;
-        padding-left: 10%;
-        padding-right: 10%;
-        padding-top: 2%;
-        padding-bottom: 2%;
+        padding: 12% 10%;
         border-radius: 0px;
     }
 
@@ -714,20 +722,12 @@ footer p {
         padding: 16px 0px;
     }
 
-    .bild_box {
-        margin-left: 0;
-        margin-right: 0;
-        padding: 20px;
-        margin-top: 10%;
-        border-radius: 0px;
-    }
-
     #koerpernetz {
         padding: 10% 0%;
     }
 
     .picturek {
-        max-width: 80%;
+        max-width: 100%;
         display: block;
         margin: 10px auto;
     }
@@ -757,18 +757,18 @@ footer p {
     }
 
     .dual_b {
-        flex-direction: column;
+        flex-direction: column-reverse;
         height: fit-content;
     }
 
     .headline {
-        margin-top: 160px;
-        margin-bottom: 30px;
+        margin-bottom: 190px;
+        margin-top: 30px;
     }
 
     .picture_b {
         max-width: 150px;
-        padding-bottom: 160px;
+        padding-top: 160px;
     }
 
     .buttons {
