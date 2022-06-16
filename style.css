@@ -500,330 +500,345 @@ footer p {
         bottom: 185px;
         padding-left: 19%;
     }
-}
-
-/*Tablet*/
-@media (max-width: 1000px) {
-
-    header nav a {
-        background-color: rgba(255, 255, 255, 0.195);
-    }
-
-    section .row {
-        flex-wrap: wrap;
-    }
-
-    .button {
-        display: block;
-        margin: auto;
-    }
-
-    .slider_headline {
-        margin-left: 15%;
-    }
-
-    .slider_text {
-        margin-left: 15%;
-        margin-right: 15%;
-    }
-
-    .slick-dots {
-        bottom: 190px;
-        padding-left: 14%;
-    }
-
-    .image_box {
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: 10%;
-        margin-bottom: 15%;
-        padding-left: 10%;
-        padding-right: 10%;
-        padding-top: 2%;
-        padding-bottom: 2%;
-        border-radius: 0px;
-    }
-
-    .facts {
-        margin-left: 15%;
-        margin-right: 15%;
-    }
 
     .secondContent {
-        height: fit-content;
-        padding-bottom: 50px;
+        padding-top: 150px;
     }
 
     .secondRow {
-        padding-top: 15%;
+        padding-top: 8%;
     }
 
-    .text {
-        padding: 3% 36px;
-        flex-direction: column;
-        height: fit-content;
+    /*Tablet*/
+    @media (max-width: 1000px) {
+
+        header nav a {
+            background-color: rgba(255, 255, 255, 0.195);
+        }
+
+        section .row {
+            flex-wrap: wrap;
+        }
+
+        .button {
+            display: block;
+            margin: auto;
+        }
+
+        .slider_headline {
+            margin-left: 15%;
+        }
+
+        .slider_text {
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+
+        .slick-dots {
+            bottom: 190px;
+            padding-left: 14%;
+        }
+
+        .image_box {
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: 10%;
+            margin-bottom: 15%;
+            padding-left: 10%;
+            padding-right: 10%;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            border-radius: 0px;
+        }
+
+        .facts {
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+
+        .secondContent {
+            height: fit-content;
+            padding-bottom: 50px;
+            padding-top: 125px;
+        }
+
+        .secondRow {
+            padding-top: 10%;
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+
+        .picture {
+            max-width: 85%;
+        }
+
+        .text {
+            padding: 3% 36px;
+            flex-direction: column;
+            height: fit-content;
+        }
+
+        .right {
+            padding-left: 0;
+            padding-top: 15px;
+        }
+
+        .bild_box {
+            margin-left: 5%;
+            margin-right: 5%;
+            padding: 7%;
+        }
+
+        #koerpernetz {
+            padding: 10% 0%;
+        }
+
+        .picturek {
+            display: block;
+            margin: 10px auto;
+        }
+
+        .textk {
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+
+        .dual {
+            flex-direction: column;
+            height: fit-content;
+        }
+
+        .picture_d {
+            padding-top: 10%;
+            padding-bottom: 10%;
+            max-width: 300px;
+        }
+
+        .text_d {
+            width: fit-content;
+            padding: 5%;
+        }
+
+        #padding {
+            padding-bottom: 35px;
+        }
+
+        .headline {
+            margin: 0px 24px;
+        }
+
+        .picture_b {
+            max-width: 200px;
+            margin: 0px;
+        }
+
+        .buttons a {
+            padding: 8px 38px;
+        }
     }
 
-    .right {
-        padding-left: 0;
-        padding-top: 15px;
-    }
 
-    .bild_box {
-        margin-left: 5%;
-        margin-right: 5%;
-        padding: 7%;
-    }
+    /*Mobile*/
+    @media (max-width: 600px) {
 
-    #koerpernetz {
-        padding: 10% 0%;
-    }
+        header {
+            padding: 20px 20px;
+        }
 
-    .picturek {
-        display: block;
-        margin: 10px auto;
-    }
+        header nav a {
+            background-color: rgba(255, 255, 255, 0.195);
+        }
 
-    .textk {
-        padding-left: 5%;
-        padding-right: 5%;
-    }
+        section h1 {
+            font-size: 34px;
+        }
 
-    .dual {
-        flex-direction: column;
-        height: fit-content;
-    }
+        section p {
+            font-size: 14px;
+        }
 
-    .picture_d {
-        padding-top: 10%;
-        padding-bottom: 10%;
-        max-width: 300px;
-    }
+        .dodekaeder {
+            max-width: 290px;
+        }
 
-    .text_d {
-        width: fit-content;
-        padding: 5%;
-    }
+        section .row {
+            margin: 0% 15%;
+            flex-wrap: wrap;
+        }
 
-    #padding {
-        padding-bottom: 35px;
-    }
+        section .row p {
+            font-size: 10px;
+        }
 
-    .headline {
-        margin: 0px 24px;
-    }
+        .center {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 0px;
+        }
 
-    .picture_b {
-        max-width: 200px;
-        margin: 0px;
-    }
+        .button {
+            padding-top: 25px;
+            display: block;
+            margin: auto;
+        }
 
-    .buttons a {
-        padding: 8px 38px;
-    }
-}
+        section .button a {
+            padding: 8px 75px;
+        }
 
+        .slider_image {
+            max-height: 290px;
+        }
 
-/*Mobile*/
-@media (max-width: 600px) {
+        .slider_headline {
+            margin-left: 5%;
+        }
 
-    header {
-        padding: 20px 20px;
-    }
+        .slider_text {
+            margin-left: 5%;
+            margin-right: 5%;
+        }
 
-    header nav a {
-        background-color: rgba(255, 255, 255, 0.195);
-    }
+        .slick-dots {
+            bottom: 195px;
+            padding-left: 3%;
+        }
 
-    section h1 {
-        font-size: 34px;
-    }
+        .image_box {
+            padding: 12% 10%;
+            border-radius: 0px;
+        }
 
-    section p {
-        font-size: 14px;
-    }
+        .facts {
+            margin-left: 0;
+            margin-right: 0;
+            display: block;
+        }
 
-    .dodekaeder {
-        max-width: 290px;
-    }
+        .half_description {
+            margin-left: 5%;
+            margin-right: 5%;
+            padding-bottom: 15%;
+        }
 
-    section .row {
-        margin: 0% 15%;
-        flex-wrap: wrap;
-    }
+        .half_image {
+            display: block;
+            margin: 0px auto;
+            max-height: 200px;
+            padding-bottom: 5%;
+        }
 
-    section .row p {
-        font-size: 10px;
-    }
+        .half_headline {
+            padding-bottom: 10px;
+        }
 
-    .center {
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 0px;
-    }
+        .secondRow {
+            margin-left: 10%;
+            margin-right: 10%;
+            padding-top: 100px;
+        }
 
-    .button {
-        padding-top: 25px;
-        display: block;
-        margin: auto;
-    }
+        .picture {
+            max-width: 90%;
+        }
 
-    section .button a {
-        padding: 8px 75px;
-    }
+        .secondContent {
+            height: fit-content;
+            padding-top: 135px;
+            padding-bottom: 30px;
+        }
 
-    .slider_image {
-        max-height: 290px;
-    }
+        .text {
+            height: fit-content;
+            padding: 24px 5%;
+            flex-direction: column;
+        }
 
-    .slider_headline {
-        margin-left: 5%;
-    }
+        .right {
+            padding: 16px 0px;
+        }
 
-    .slider_text {
-        margin-left: 5%;
-        margin-right: 5%;
-    }
+        #koerpernetz {
+            padding: 10% 0%;
+        }
 
-    .slick-dots {
-        bottom: 195px;
-        padding-left: 3%;
-    }
+        .picturek {
+            max-width: 100%;
+            display: block;
+            margin: 10px auto;
+        }
 
-    .image_box {
-        padding: 12% 10%;
-        border-radius: 0px;
-    }
+        .textk {
+            padding-left: 5%;
+            padding-right: 5%;
+        }
 
-    .facts {
-        margin-left: 0;
-        margin-right: 0;
-        display: block;
-    }
+        .dual {
+            flex-direction: column;
+            height: fit-content;
+        }
 
-    .half_description {
-        margin-left: 5%;
-        margin-right: 5%;
-        padding-bottom: 15%;
-    }
+        .picture_d {
+            max-width: 230px;
+            padding-top: 48px;
+            padding-bottom: 48px;
+        }
 
-    .half_image {
-        display: block;
-        margin: 0px auto;
-        max-height: 200px;
-        padding-bottom: 5%;
-    }
+        .text_d {
+            padding: 5%;
+        }
 
-    .half_headline {
-        padding-bottom: 10px;
-    }
+        #padding {
+            padding-bottom: 15px;
+        }
 
-    .secondRow {
-        margin-left: 10%;
-        margin-right: 10%;
-        padding-top: 100px;
-    }
+        .dual_b {
+            flex-direction: column-reverse;
+            height: fit-content;
+        }
 
-    .picture {
-        max-width: 90%;
-    }
-     
-    .secondContent {
-        height: fit-content;
-        padding-top: 110px;
-        padding-bottom: 30px;
-    }
+        .headline {
+            padding-bottom: 190px;
+            padding-top: 30px;
+            margin: auto;
+        }
 
-    .text {
-        height: fit-content;
-        padding: 24px 5%;
-        flex-direction: column;
-    }
+        .picture_b {
+            max-width: 150px;
+            padding-top: 160px;
+        }
 
-    .right {
-        padding: 16px 0px;
-    }
+        .buttons {
+            flex-direction: column;
+            display: block;
+            margin: auto;
+        }
 
-    #koerpernetz {
-        padding: 10% 0%;
-    }
+        .buttonPrimary {
+            margin-bottom: 20px;
+        }
 
-    .picturek {
-        max-width: 100%;
-        display: block;
-        margin: 10px auto;
-    }
+        .buttonPrimary a {
+            padding: 8px 39%;
+            width: 100%;
+            display: inline-block;
+        }
 
-    .textk {
-        padding-left: 5%;
-        padding-right: 5%;
-    }
+        .buttonSecondary a {
+            padding: 8px 39%;
+            margin-left: 0;
+            width: 100%;
+            display: inline-block;
+        }
 
-    .dual {
-        flex-direction: column;
-        height: fit-content;
-    }
+        .footer {
+            flex-direction: column;
+            align-items: center;
+            padding: 0;
+        }
 
-    .picture_d {
-        max-width: 230px;
-        padding-top: 48px;
-        padding-bottom: 48px;
-    }
-
-    .text_d {
-        padding: 5%;
-    }
-
-    #padding {
-        padding-bottom: 15px;
-    }
-
-    .dual_b {
-        flex-direction: column-reverse;
-        height: fit-content;
-    }
-
-    .headline {
-        padding-bottom: 190px;
-        padding-top: 30px;
-        margin: auto;
-    }
-
-    .picture_b {
-        max-width: 150px;
-        padding-top: 160px;
-    }
-
-    .buttons {
-        flex-direction: column;
-        display: block;
-        margin: auto;
-    }
-
-    .buttonPrimary {
-        margin-bottom: 20px;
-    }
-
-    .buttonPrimary a {
-        padding: 8px 39%;
-        width: 100%;
-        display: inline-block;
-    }
-
-    .buttonSecondary a {
-        padding: 8px 39%;
-        margin-left: 0;
-        width: 100%;
-        display: inline-block;
-    }
-
-    .footer {
-        flex-direction: column;
-        align-items: center;
-        padding: 0;
-    }
-
-    .footer p {
-        margin-bottom: 8px;
+        .footer p {
+            margin-bottom: 8px;
+        }
     }
 }
