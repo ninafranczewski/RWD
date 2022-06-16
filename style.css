@@ -14,7 +14,7 @@ h3 {
 }
 
 p {
-    font-weight: 350;
+    font-weight: 400;
 }
 
 .left {
@@ -719,11 +719,15 @@ footer p {
     }
 
     .secondRow {
-        margin-left: 18%;
-        margin-right: 18%;
+        margin-left: 10%;
+        margin-right: 10%;
         padding-top: 100px;
     }
 
+    .picture {
+        max-width: 90%;
+    }
+     
     .secondContent {
         height: fit-content;
         padding-top: 110px;
