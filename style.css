@@ -17,10 +17,6 @@ p {
     font-weight: 400;
 }
 
-.left {
-    width: 160px;
-}
-
 body {
     color: #171a20
 }
@@ -262,6 +258,15 @@ section .button a:hover {
     background-color: white;
     display: flex;
     height: 30vh;
+}
+
+.left {
+    width: 160px;
+}
+
+.left h2 {
+    padding-top: 2px;
+    padding-bottom: 16px;
 }
 
 .right {
